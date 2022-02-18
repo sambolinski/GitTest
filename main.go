@@ -10,6 +10,6 @@ func main() {
 	ticker := time.NewTicker(pingTime)
 
 	for _ = range ticker.C {
-		fmt.Println("Ping")
+		fmt.Println("Hello")
 	}
 }
